@@ -1,0 +1,123 @@
+.footer {
+  padding: 112px 0 53px 0;
+  background: #00000014;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer-textcontent {
+  max-width: 300px;
+}
+.footer-textcontent h2 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36.01px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #211f54;
+}
+.footer-textcontent p {
+  padding-top: 5px;
+  font-weight: 400;
+  font-size: 16.73px;
+  line-height: 30.01px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #6e7191;
+}
+.footer-contact-us {
+  max-width: 210px;
+}
+.footer-contact-us h2 {
+  font-weight: 700;
+  font-size: 23.06px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #000000;
+}
+.footer-contact-us p {
+  padding-top: 11px;
+  font-weight: 400;
+  font-size: 15.38px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #6e7191;
+}
+.footer-hours {
+  max-width: 210px;
+}
+.footer-hours h2 {
+  font-weight: 700;
+  font-size: 23.06px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #000000;
+}
+.footer-hours p {
+  padding-top: 11px;
+  font-weight: 400;
+  font-size: 15.38px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #6e7191;
+}
+.footer-estimate {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer-estimate h2 {
+  font-weight: 700;
+  font-size: 23.06px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #000000;
+}
+.footer-estimate span {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #0075ff;
+}
+.footer-estimate p {
+  font-weight: 400;
+  font-size: 16.73px;
+  line-height: 30.01px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #6e7191;
+}
+.footer-estimate button {
+  cursor: pointer;
+  width: 164.47999572753906px;
+  height: 55px;
+  border: none;
+  border-radius: 20px;
+  background-color: #0075ff;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 12.57px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+}
+.footer-estimate button:hover {
+  background-color: #245586;
+}
+@media (max-width: 768px) {
+  .footer-content {
+    flex-wrap: wrap;
+  }
+}
