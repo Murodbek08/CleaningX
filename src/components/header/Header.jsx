@@ -39,9 +39,14 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          <button className={styleHeader["nav-menu-btn"]}>
-            Get a free quote
-          </button>
+          <div className={styleHeader["nav-menu-btns"]}>
+            <button className={styleHeader["nav-menu-btn-count"]}>
+              Cart (0)
+            </button>
+            <button className={styleHeader["nav-menu-btn"]}>
+              Get a free quote
+            </button>
+          </div>
         </nav>
       </div>
     </header>

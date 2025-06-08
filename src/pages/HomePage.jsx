@@ -13,6 +13,7 @@ import peopleFloverImg from "../assets/people-flower.png";
 export const HomePage = () => {
   return (
     <main>
+      {/* Hero section */}
       <section className={styleHome["hero-section"]}>
         <div className={styleIndex["container"]}>
           <div className={styleHome["hero-section-content"]}>
@@ -42,6 +43,7 @@ export const HomePage = () => {
           </div>
         </div>
       </section>
+      {/* About section */}
       <section className={styleHome["about-section"]}>
         <div className={styleIndex["container"]}>
           <h2>About Us</h2>
@@ -76,8 +78,13 @@ export const HomePage = () => {
               </p>
             </div>
           </div>
+          <div className={styleHome["about-buttons"]}>
+            <button>Get a free quote</button>
+            <button>Explore services</button>
+          </div>
         </div>
       </section>
+      {/* Services section */}
       <section className={styleHome["services-section"]}>
         <div className={styleIndex["container"]}>
           <div className={styleHome["services-section-header"]}>
@@ -112,6 +119,7 @@ export const HomePage = () => {
           </div>
         </div>
       </section>
+      {/* Follow section */}
       <section className={styleHome["follow-section"]}>
         <div className={styleIndex["container"]}>
           <div className={styleHome["follow-section-card"]}>
@@ -119,6 +127,7 @@ export const HomePage = () => {
               <img src={peopleFloverImg} alt="Flover img ?" />
             </div>
             <div className={styleHome["follow-section-card-text"]}>
+              <h4>Covid-19 sanitization</h4>
               <h2>
                 We follow guidelines to keep you safe from the COVID-19 virus
               </h2>
@@ -132,13 +141,20 @@ export const HomePage = () => {
                   <div>
                     <img src={phoneIcon} alt="Phone img ?" />
                   </div>
-                  <span>(414) 567 - 2109</span>
+                  <div className={styleHome["follow-section-card-phone-text"]}>
+                    <p>Call us now</p>
+                    <span>(414) 567 - 2109</span>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+      <div className={styleIndex["container"]}>
+        <hr />
+      </div>
+      {/* Article section */}
       <section className={styleHome["article-section"]}>
         <div className={styleIndex["container"]}>
           <div className={styleHome["article-section-top"]}>
@@ -158,7 +174,10 @@ export const HomePage = () => {
                   Lorem ipsum dolor sit amet conse ctetur adip iscing elit justo
                   quis odio sit sit ac port titor sit males.
                 </p>
-                <data>Jan 28, 2022</data>
+                <div className={styleHome["article-section-card-date"]}>
+                  <data>Jan 28, 2022</data>
+                  <div className={styleHome["article-section-card-img"]}></div>
+                </div>
               </div>
             </div>
             <div className={styleHome["article-section-card-2"]}>
@@ -170,8 +189,70 @@ export const HomePage = () => {
                   Lorem ipsum dolor sit amet conse ctetur adip iscing elit justo
                   quis odio sit sit ac port titor sit males.
                 </p>
-                <data>Jan 28, 2022</data>
+                <div className={styleHome["article-section-card-date"]}>
+                  <data>Jan 28, 2022</data>
+                  <div className={styleHome["article-section-card-img"]}></div>
+                </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Contact section */}
+      <section className={styleHome["contact-section"]}>
+        <div className={styleIndex["container"]}>
+          <div className={styleHome["contact-section-content"]}>
+            <div className={styleHome["contact-section-text"]}>
+              <h2>Contact Us</h2>
+              <p>
+                In dignissim euismod pretium amet enim a eu nam ut urna accumsan
+                pellentesque lacus duis pharetra eutortor.
+              </p>
+              <div className={styleHome["contact-section-card-phone"]}>
+                <div>
+                  <img src={phoneIcon} alt="Phone img ?" />
+                </div>
+                <div className={styleHome["contact-section-card-phone-text"]}>
+                  <p>Call us now</p>
+                  <span>(414) 567 - 2109</span>
+                </div>
+              </div>
+              <hr />
+              <h3>Not convinced yet?</h3>
+              <h5>
+                Massa bibendum consectetur maurisid gravida purus, dolor dui
+                amet morbi non nunc urna purus diam.
+              </h5>
+              <button>Browse our packages</button>
+            </div>
+            <div className={styleHome["contact-section-form"]}>
+              <form>
+                <div className={styleHome["form-groups"]}>
+                  <div className={styleHome["form-group"]}>
+                    <label htmlFor="name">Full name</label>
+                    <input id="name" type="text" />
+                  </div>
+                  <div className={styleHome["form-group"]}>
+                    <label htmlFor="number">Phone number</label>
+                    <input id="number" type="text" />
+                  </div>
+                </div>
+                <div className={styleHome["form-groups"]}>
+                  <div className={styleHome["form-group"]}>
+                    <label htmlFor="address">Address</label>
+                    <input id="address" type="text" />
+                  </div>
+                  <div className={styleHome["form-group"]}>
+                    <label htmlFor="email">Email</label>
+                    <input id="email" type="email" />
+                  </div>
+                </div>
+                <div className={styleHome["form-textarea"]}>
+                  <label htmlFor="message">Add a note</label>
+                  <textarea id="message"></textarea>
+                </div>
+                <button type="submit">Submit message</button>
+              </form>
             </div>
           </div>
         </div>
