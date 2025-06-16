@@ -1,6 +1,6 @@
 /* Hero section */
 .hero-section {
-  padding: 300px 0 156px 0;
+  padding: 200px 0 156px 0;
 }
 .hero-section-content {
   display: flex;
@@ -706,6 +706,9 @@ form button:hover {
   .form-groups {
     margin-top: 10px;
     flex-direction: column;
+  }
+  .hero-section {
+    padding: 300px 0 156px 0;
   }
 }
 @media (max-width: 580px) {
