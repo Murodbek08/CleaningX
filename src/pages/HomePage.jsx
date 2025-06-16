@@ -14,7 +14,7 @@ export const HomePage = () => {
   return (
     <main>
       {/* Hero section */}
-      <section className={styleHome["hero-section"]}>
+      <section id="Home" className={styleHome["hero-section"]}>
         <div className={styleIndex["container"]}>
           <div className={styleHome["hero-section-content"]}>
             <div className={styleHome["hero-section-text"]}>
@@ -44,7 +44,7 @@ export const HomePage = () => {
         </div>
       </section>
       {/* About section */}
-      <section className={styleHome["about-section"]}>
+      <section id="About" className={styleHome["about-section"]}>
         <div className={styleIndex["container"]}>
           <h2>About Us</h2>
           <p>
@@ -85,7 +85,7 @@ export const HomePage = () => {
         </div>
       </section>
       {/* Services section */}
-      <section className={styleHome["services-section"]}>
+      <section id="Services" className={styleHome["services-section"]}>
         <div className={styleIndex["container"]}>
           <div className={styleHome["services-section-header"]}>
             <h2>Our Services</h2>
@@ -151,7 +151,7 @@ export const HomePage = () => {
           </div>
         </div>
       </section>
-      <div className={styleIndex["container"]}>
+      <div id="Articles" className={styleIndex["container"]}>
         <hr />
       </div>
       {/* Article section */}
@@ -199,7 +199,7 @@ export const HomePage = () => {
         </div>
       </section>
       {/* Contact section */}
-      <section className={styleHome["contact-section"]}>
+      <section id="Contact" className={styleHome["contact-section"]}>
         <div className={styleIndex["container"]}>
           <div className={styleHome["contact-section-content"]}>
             <div className={styleHome["contact-section-text"]}>

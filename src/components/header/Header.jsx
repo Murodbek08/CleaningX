@@ -1,6 +1,7 @@
 import styleHeader from "./Header.module.css";
 import styleIndex from "../../index.module.css";
 import navLogo from "../../assets/nav-logo.svg";
+// import Switch from "../hamburger/Hamburger";
 
 const Header = () => {
   return (
@@ -8,32 +9,37 @@ const Header = () => {
       <div className={styleIndex["container"]}>
         <nav className={styleHeader["nav"]}>
           <div className={styleHeader["nav-content"]}>
-            <div className={styleHeader["nav-logo"]}>
-              <img src={navLogo} alt="Nav logo ?" />
+            <div className={styleHeader["nav-content-top"]}>
+              <div className={styleHeader["nav-logo"]}>
+                <img src={navLogo} alt="Nav logo ?" />
+              </div>
+              {/* <div className={styleHeader["hamburger"]}>
+                <Switch />
+              </div> */}
             </div>
             <ul className={styleHeader["nav-menu"]}>
               <li>
-                <a className={styleHeader["nav-menu-link"]} href="Home">
+                <a className={styleHeader["nav-menu-link"]} href="#Home">
                   Home
                 </a>
               </li>
               <li>
-                <a className={styleHeader["nav-menu-link"]} href="About">
+                <a className={styleHeader["nav-menu-link"]} href="#About">
                   About
                 </a>
               </li>
               <li>
-                <a className={styleHeader["nav-menu-link"]} href="Services">
+                <a className={styleHeader["nav-menu-link"]} href="#Services">
                   Services
                 </a>
               </li>
               <li>
-                <a className={styleHeader["nav-menu-link"]} href="Articles">
+                <a className={styleHeader["nav-menu-link"]} href="#Articles">
                   Articles
                 </a>
               </li>
               <li>
-                <a className={styleHeader["nav-menu-link"]} href="Contact">
+                <a className={styleHeader["nav-menu-link"]} href="#Contact">
                   Contact
                 </a>
               </li>
