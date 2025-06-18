@@ -1,14 +1,16 @@
+import {
+  cardPayImg,
+  clearImg,
+  heroImg,
+  homeImg,
+  industrialImg,
+  kalendarImg,
+  officeImg,
+  peopleFloverImg,
+  phoneIcon,
+} from "../assets/imagesCommon";
 import styleIndex from "../index.module.css";
 import styleHome from "./HomePage.module.css";
-import phoneIcon from "../assets/phone-icon.svg";
-import heroImg from "../assets/hero-img.png";
-import kalendarImg from "../assets/kalendar.png";
-import cardPayImg from "../assets/card-pay.png";
-import clearImg from "../assets/clear.png";
-import homeImg from "../assets/home.png";
-import officeImg from "../assets/office.png";
-import industrialImg from "../assets/industrial.png";
-import peopleFloverImg from "../assets/people-flower.png";
 
 export const HomePage = () => {
   return (

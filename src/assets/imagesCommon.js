@@ -1,0 +1,9 @@
+export { default as phoneIcon } from "./phone-icon.svg";
+export { default as heroImg } from "./hero-img.png";
+export { default as kalendarImg } from "./kalendar.png";
+export { default as cardPayImg } from "./card-pay.png";
+export { default as clearImg } from "./clear.png";
+export { default as homeImg } from "./home.png";
+export { default as officeImg } from "./office.png";
+export { default as industrialImg } from "./industrial.png";
+export { default as peopleFloverImg } from "./people-flower.png";
